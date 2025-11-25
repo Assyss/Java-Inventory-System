@@ -42,4 +42,4 @@ return DriverManager.getConnection("jdbc:mysql://localhost:3306/lojadb", "root",
 Importe o projeto como Maven Project na sua IDE favorita (Eclipse/IntelliJ) e execute a classe SistemaLoja.java.
 
 👨‍💻 Autor
-Desenvolvido por [Seu Nome]. Projeto focado em demonstrar competências em Java Backend, SQL e JDBC.
+Desenvolvido por Bruno Assis. Projeto focado em demonstrar competências em Java Backend, SQL e JDBC.
