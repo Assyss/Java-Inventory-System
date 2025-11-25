@@ -64,12 +64,14 @@ CREATE TABLE produtos (
     preco DECIMAL(10, 2),
     quantidade INT
 );
+
 2. Configurar a Conexão
 No arquivo src/main/java/com/loja/conexao/ConexaoFactory.java, edite a linha da senha para corresponder ao seu MySQL local:
 
 Java
 
 return DriverManager.getConnection("jdbc:mysql://localhost:3306/lojadb", "root", "SUA_SENHA");
+
 3. Executar
 Importe o projeto como Maven Project na sua IDE favorita (Eclipse/IntelliJ) e execute a classe SistemaLoja.java.
 
